@@ -1,0 +1,8 @@
+title: "Aero & CFD Notes"
+description: "Practical CFD, ANSYS, and UAV/drone engineering tutorials."
+theme: minima
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+show_excerpts: true
+plugins:
+  - jekyll-feed
