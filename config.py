@@ -13,7 +13,7 @@ NVIDIA_BASE_URL = os.environ.get("NVIDIA_BASE_URL", "https://integrate.api.nvidi
 # are on the free tier changes too. Log into build.nvidia.com -> API Catalog,
 # pick a current free/available chat model, and put its exact slug here
 # (or override via the NVIDIA_MODEL env var / GitHub secret instead of editing this file).
-NVIDIA_MODEL = os.environ.get("NVIDIA_MODEL", "meta/llama-3.1-70b-instruct")
+NVIDIA_MODEL = os.environ.get("NVIDIA_MODEL", "nvidia/nemotron-3.5-lightning-30b-a3b")
 
 # --- Site (free GitHub Pages - no hosting cost) ---
 # https://<your-username>.github.io/<your-repo-name>  - fill this in once you've

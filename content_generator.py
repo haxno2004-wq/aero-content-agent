@@ -49,17 +49,24 @@ def generate_article(topic: str) -> dict:
             {"role": "user", "content": f"Write the tutorial article on: {topic}"},
         ],
         "temperature": 0.6,
-        "max_tokens": 2500,
+        "max_tokens": 3000,
+        # Nemotron's reasoning models "think" before answering (like DeepSeek-R1).
+        # We don't need that for straightforward article writing - keeping it off
+        # is faster, cheaper on the free rate limit, and keeps the reasoning trace
+        # out of the JSON we're trying to parse. Harmless no-op on models that
+        # don't have a thinking mode at all.
+        "extra_body": {"chat_template_kwargs": {"enable_thinking": False}},
     }
 
     resp = requests.post(
         f"{config.NVIDIA_BASE_URL}/chat/completions",
         headers=headers,
         json=payload,
-        timeout=120,
+        timeout=180,
     )
     resp.raise_for_status()
-    raw = resp.json()["choices"][0]["message"]["content"].strip()
+    message = resp.json()["choices"][0]["message"]
+    raw = message["content"].strip()
 
     # Some models wrap JSON in ```json fences despite instructions - strip if present.
     if raw.startswith("```"):
