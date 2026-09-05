@@ -52,10 +52,11 @@ def generate_article(topic: str) -> dict:
         "max_tokens": 3000,
         # Nemotron's reasoning models "think" before answering (like DeepSeek-R1).
         # We don't need that for straightforward article writing - keeping it off
-        # is faster, cheaper on the free rate limit, and keeps the reasoning trace
-        # out of the JSON we're trying to parse. Harmless no-op on models that
-        # don't have a thinking mode at all.
-        "extra_body": {"chat_template_kwargs": {"enable_thinking": False}},
+        # is faster and keeps the reasoning trace out of the JSON we're parsing.
+        # NOTE: this must be a top-level field in the raw JSON body (not wrapped
+        # in "extra_body" - that's an OpenAI Python-library-only convention that
+        # doesn't mean anything to the raw REST API we're calling with `requests`).
+        "chat_template_kwargs": {"enable_thinking": False},
     }
 
     resp = requests.post(
@@ -64,7 +65,10 @@ def generate_article(topic: str) -> dict:
         json=payload,
         timeout=180,
     )
-    resp.raise_for_status()
+    if not resp.ok:
+        # Surface NVIDIA's actual error detail (not just "400 Bad Request") so
+        # the Telegram digest tells you what's actually wrong.
+        raise RuntimeError(f"NVIDIA API {resp.status_code}: {resp.text[:500]}")
     message = resp.json()["choices"][0]["message"]
     raw = message["content"].strip()
 
