@@ -1,0 +1,43 @@
+name: Daily Content Publish
+
+on:
+  schedule:
+    # 04:30 UTC = ~10:00 AM IST. Adjust to whenever you want your daily digest.
+    - cron: "30 4 * * *"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab to test
+
+permissions:
+  contents: write   # needed so the workflow can commit the updated topics.json / content/ back
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          NVIDIA_BASE_URL: ${{ secrets.NVIDIA_BASE_URL }}
+          NVIDIA_MODEL: ${{ secrets.NVIDIA_MODEL }}
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          POST_STATUS: ${{ secrets.POST_STATUS }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ARTICLES_PER_RUN: ${{ secrets.ARTICLES_PER_RUN }}
+        run: python run_pipeline.py
+
+      - name: Commit updated topic state + new post/draft files
+        run: |
+          git config user.name "content-bot"
+          git config user.email "content-bot@users.noreply.github.com"
+          git add topics.json _posts/ _drafts/ 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Daily content run: $(date -u +%Y-%m-%d)"
+          git push
