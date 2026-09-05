@@ -1,7 +1,11 @@
 """
-Calls your free NVIDIA model to generate one tutorial article as structured JSON.
+Calls your free NVIDIA model to generate one tutorial article.
+
+Deliberately NOT using JSON output here. Asking an LLM to wrap a large HTML
+article inside a JSON string is fragile - a single unescaped quote or literal
+newline in the body breaks json.loads(). Instead we use a simple plain-text
+format with a clear marker before the body, which needs zero escaping.
 """
-import json
 import requests
 
 import config
@@ -24,14 +28,25 @@ mistakes, what to check), not a vague overview.
 No <h1> (the title is handled separately), no <script>, no external links unless \
 explicitly asked for.
 
-Return ONLY valid JSON, no markdown code fences, with exactly these keys:
-{
-  "title": "...",
-  "meta_description": "... (under 155 characters)",
-  "tags": ["...", "...", "..."],
-  "body_html": "..."
-}
+Respond in EXACTLY this plain-text format and nothing else - no JSON, no markdown \
+code fences, no extra commentary before or after:
+
+TITLE: <the article title, one line, no quotes around it>
+DESCRIPTION: <meta description under 155 characters, one line>
+TAGS: <comma-separated tags, one line, e.g. cfd, ansys, aerodynamics>
+---BODY---
+<the full HTML body of the article starts immediately after that line and \
+continues to the end of your response>
 """
+
+
+def _extract_field(header_text: str, field_name: str) -> str:
+    prefix = field_name.upper() + ":"
+    for line in header_text.splitlines():
+        stripped = line.strip()
+        if stripped.upper().startswith(prefix):
+            return stripped[len(prefix):].strip()
+    return ""
 
 
 def generate_article(topic: str) -> dict:
@@ -52,7 +67,7 @@ def generate_article(topic: str) -> dict:
         "max_tokens": 3000,
         # Nemotron's reasoning models "think" before answering (like DeepSeek-R1).
         # We don't need that for straightforward article writing - keeping it off
-        # is faster and keeps the reasoning trace out of the JSON we're parsing.
+        # is faster and keeps the reasoning trace out of the output we're parsing.
         # NOTE: this must be a top-level field in the raw JSON body (not wrapped
         # in "extra_body" - that's an OpenAI Python-library-only convention that
         # doesn't mean anything to the raw REST API we're calling with `requests`).
@@ -69,18 +84,31 @@ def generate_article(topic: str) -> dict:
         # Surface NVIDIA's actual error detail (not just "400 Bad Request") so
         # the Telegram digest tells you what's actually wrong.
         raise RuntimeError(f"NVIDIA API {resp.status_code}: {resp.text[:500]}")
-    message = resp.json()["choices"][0]["message"]
-    raw = message["content"].strip()
 
-    # Some models wrap JSON in ```json fences despite instructions - strip if present.
-    if raw.startswith("```"):
-        raw = raw.strip("`")
-        if raw.lower().startswith("json"):
-            raw = raw[4:]
-        raw = raw.strip()
+    raw = resp.json()["choices"][0]["message"]["content"].strip()
 
-    article = json.loads(raw)
-    for key in ("title", "meta_description", "tags", "body_html"):
-        if key not in article:
-            raise ValueError(f"Model output missing required key: {key}")
-    return article
+    if "---BODY---" not in raw:
+        raise ValueError(
+            "Model output didn't contain the '---BODY---' marker - "
+            f"got (first 300 chars): {raw[:300]!r}"
+        )
+
+    header_part, body_part = raw.split("---BODY---", 1)
+    body_html = body_part.strip()
+
+    title = _extract_field(header_part, "TITLE")
+    description = _extract_field(header_part, "DESCRIPTION")
+    tags_line = _extract_field(header_part, "TAGS")
+    tags = [t.strip() for t in tags_line.split(",") if t.strip()]
+
+    if not title:
+        raise ValueError(f"Could not find TITLE in model output: {header_part!r}")
+    if not body_html:
+        raise ValueError("Body section was empty after the '---BODY---' marker")
+
+    return {
+        "title": title,
+        "meta_description": description,
+        "tags": tags,
+        "body_html": body_html,
+    }
