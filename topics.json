@@ -2,7 +2,11 @@
   {
     "id": 1,
     "topic": "How to set up correct boundary conditions in ANSYS Fluent for external aerodynamics simulations",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-09T09:06:33.078850Z",
+    "post_file": "_drafts/setting-up-correct-boundary-conditions-in-ansys-fluent-for-e.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 2,
