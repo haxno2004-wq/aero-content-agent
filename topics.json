@@ -20,7 +20,11 @@
   {
     "id": 3,
     "topic": "Choosing the right turbulence model (k-epsilon vs k-omega SST) for UAV wing simulations",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-12T08:46:29.126327Z",
+    "post_file": "_drafts/choosing-the-right-turbulence-model-k-epsilon-vs-k-omega-sst.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 4,
