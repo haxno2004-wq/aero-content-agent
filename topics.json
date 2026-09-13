@@ -29,7 +29,11 @@
   {
     "id": 4,
     "topic": "Mesh independence study: why it matters and how to run one in ANSYS Meshing",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-13T09:40:52.235478Z",
+    "post_file": "_drafts/mesh-independence-study-why-it-matters-and-how-to-run-one-in.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 5,
