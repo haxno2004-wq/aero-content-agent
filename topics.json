@@ -38,7 +38,11 @@
   {
     "id": 5,
     "topic": "Introduction to Fluid-Structure Interaction (FSI) using ANSYS Fluent and Static Structural",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-15T09:33:52.244082Z",
+    "post_file": "_drafts/introduction-to-fluid-structure-interaction-fsi-using-ansys.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 6,
