@@ -47,7 +47,11 @@
   {
     "id": 6,
     "topic": "Basics of explicit dynamics simulation in LS-DYNA for impact and ballistic studies",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-17T09:37:16.514433Z",
+    "post_file": "_drafts/basics-of-explicit-dynamics-simulation-in-ls-dyna-for-impact.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 7,
