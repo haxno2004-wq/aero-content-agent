@@ -56,7 +56,11 @@
   {
     "id": 7,
     "topic": "How to model composite laminates in ANSYS Composite PrepPost (ACP)",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-18T09:09:09.163019Z",
+    "post_file": "_drafts/a-practical-guide-to-modeling-composite-laminates-in-ansys-a.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 8,
