@@ -65,7 +65,11 @@
   {
     "id": 8,
     "topic": "Modal analysis fundamentals: interpreting natural frequencies and mode shapes in ANSYS",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-19T08:56:03.072566Z",
+    "post_file": "_drafts/modal-analysis-fundamentals-interpreting-natural-frequencies.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 9,
