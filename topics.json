@@ -74,7 +74,11 @@
   {
     "id": 9,
     "topic": "Designing a Vertical Axis Wind Turbine (VAWT): key aerodynamic considerations",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-20T09:26:53.169533Z",
+    "post_file": "_drafts/designing-a-vertical-axis-wind-turbine-vawt-key-aerodynamic.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 10,
