@@ -83,7 +83,11 @@
   {
     "id": 10,
     "topic": "Structural design considerations for UAV wings under aerodynamic loading",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-21T10:09:52.437202Z",
+    "post_file": "_drafts/structural-design-considerations-for-uav-wings-under-aerodyn.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 11,
