@@ -101,7 +101,11 @@
   {
     "id": 12,
     "topic": "Propeller design basics for multirotor drones: thrust, efficiency, and material tradeoffs",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-23T09:28:17.979328Z",
+    "post_file": "_drafts/propeller-design-basics-for-multirotor-drones-thrust-efficie.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 13,
