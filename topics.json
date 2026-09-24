@@ -110,7 +110,11 @@
   {
     "id": 13,
     "topic": "Thermal barrier coatings in IC engines: how they work and how to simulate them",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-24T09:28:50.500136Z",
+    "post_file": "_drafts/thermal-barrier-coat-the-engine-mechanisms-and-simulation-gu.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 14,
