@@ -128,7 +128,11 @@
   {
     "id": 15,
     "topic": "Introduction to Finite Element Method (FEM) for mechanical engineering students",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-26T09:30:29.510976Z",
+    "post_file": "_drafts/introduction-to-finite-element-method-fem-for-mechanical-eng.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 16,
