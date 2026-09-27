@@ -137,7 +137,11 @@
   {
     "id": 16,
     "topic": "How composite honeycomb structures improve impact and ballistic resistance",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-27T10:09:36.367274Z",
+    "post_file": "_drafts/enhancing-impact-and-ballistic-resistance-in-composite-honey.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 17,
