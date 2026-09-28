@@ -146,7 +146,11 @@
   {
     "id": 17,
     "topic": "Aerodynamic performance analysis of Horizontal Axis Wind Turbine (HAWT) blades",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-28T11:10:31.425528Z",
+    "post_file": "_drafts/aerodynamic-performance-analysis-of-hawt-blades-using-cfd.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 18,
