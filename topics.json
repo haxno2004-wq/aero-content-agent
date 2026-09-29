@@ -155,7 +155,11 @@
   {
     "id": 18,
     "topic": "Wingtip devices explained: winglets, sharklets, and their effect on drag reduction",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-29T10:52:04.569941Z",
+    "post_file": "_drafts/wingtip-devices-explained-winglets-sharklets-and-their-effec.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 19,
