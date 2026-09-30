@@ -164,7 +164,11 @@
   {
     "id": 19,
     "topic": "How to use Python and MATLAB together for engineering simulation post-processing",
-    "used": false
+    "used": true,
+    "published_at": "2026-09-30T10:42:02.696387Z",
+    "post_file": "_drafts/how-to-use-python-and-matlab-together-for-engineering-simula.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 20,
