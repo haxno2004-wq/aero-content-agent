@@ -173,7 +173,11 @@
   {
     "id": 20,
     "topic": "Static structural analysis in ANSYS: a step-by-step beginner's workflow",
-    "used": false
+    "used": true,
+    "published_at": "2026-10-03T10:02:24.400963Z",
+    "post_file": "_drafts/static-structural-analysis-in-ansys-a-step-by-step-beginners.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 21,
