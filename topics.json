@@ -182,7 +182,11 @@
   {
     "id": 21,
     "topic": "Understanding aeroacoustics: why some UAV propellers are noisier than others",
-    "used": false
+    "used": true,
+    "published_at": "2026-10-04T10:42:47.111723Z",
+    "post_file": "_drafts/understanding-aeroacoustics-why-some-uav-propellers-are-nois.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 22,
