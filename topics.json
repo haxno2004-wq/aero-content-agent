@@ -191,7 +191,11 @@
   {
     "id": 22,
     "topic": "Rotor-wing UAV empennage design: balancing stability and energy extraction",
-    "used": false
+    "used": true,
+    "published_at": "2026-10-05T11:46:07.204259Z",
+    "post_file": "_drafts/rotor-wing-uav-empennage-design-balancing-stability-and-ener.md",
+    "post_status": "draft (needs review)",
+    "post_link": null
   },
   {
     "id": 23,
