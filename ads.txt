@@ -1,0 +1,5 @@
+# ads.txt placeholder for Aero/CFD Notes
+# After AdSense approves, replace this whole file with the single real line:
+#   google.com, ca-pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Served at the site root; Google crawlers read it after your publisher id
+# is activated (see ADSENSE-SETUP.md).

@@ -5,3 +5,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 lang: en
+
+# Ad revenue switch — paste your `ca-pub-…` publisher id once AdSense has
+# approved this site. While empty, no ad script or slot ever renders
+# (AdSense policy requires this before approval, and the page stays clean).
+adsense_client: ""

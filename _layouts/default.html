@@ -6,6 +6,16 @@
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   {% if page.description %}<meta name="description" content="{{ page.description | escape }}">{% endif %}
   {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}">{% endif %}
+  {% comment %}
+    Ad revenue switch: set `adsense_client: "ca-pub-XXXXXXXXXXXXXXXX"` in
+    _config.yml once your AdSense account is approved for this site. The
+    script never loads while the value is empty — required by AdSense policy
+    (no ad code on unreviewed/unapproved sites).
+  {% endcomment %}
+  {% if site.adsense_client %}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense_client }}"
+          crossorigin="anonymous"></script>
+  {% endif %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
   <style>
