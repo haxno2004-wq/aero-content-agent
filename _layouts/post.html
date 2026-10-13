@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<article class="post">
+  {% if page.hero %}<img class="cover" src="{{ site.baseurl }}/{{ page.hero }}" alt="{{ page.title }}">{% endif %}
+  <div class="meta">
+    <span class="hero-topic">{{ page.date | date: "%b %-d, %Y" }}</span>
+    {% for t in page.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+  </div>
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</article>
+
+<style>
+  article.post img.cover { width: 100%; border-radius: 18px; display: block; margin-bottom: 26px;
+    box-shadow: 0 18px 50px rgba(0,0,0,.45); }
+  article.post h1 { font-size: 2rem; margin: 10px 0 30px; }
+  .meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .tag { background: var(--card2); color: var(--muted); font-size: .75rem;
+    padding: 3px 10px; border-radius: 999px; }
+  article.post h2 { margin-top: 2.2em; font-size: 1.35rem;
+    border-left: 4px solid; border-image: linear-gradient(var(--accent1), var(--accent2)) 1;
+    padding-left: 12px; }
+  article.post h3 { font-size: 1.1rem; color: #cdd7e8; }
+  article.post ul { padding-left: 1.2em; }
+  article.post li { margin: .45em 0; }
+  article.post code { font-family: "JetBrains Mono", monospace; background: var(--card2);
+    padding: 2px 7px; border-radius: 6px; font-size: .9em; }
+  article.post pre { background: var(--card); border: 1px solid #1d2434; border-radius: 12px;
+    padding: 16px 18px; overflow-x: auto; }
+  section.related { margin-top 60px; margin-top: 60px; border-top: 1px solid #1d2434; padding-top: 30px; }
+  section.related h2 { font-size: 1.05rem; color: var(--muted); }
+  section.related a { display: block; padding: 10px 0; text-decoration: none; color: var(--text);
+    border-bottom: 1px solid #161d2b; }
+  section.related a:hover { color: #9db4ff; }
+</style>
+
+{% assign related = site.posts | where_exp: "p", "p.url != page.url" %}
+{% assign n = 0 %}
+<section class="related">
+  <h2>Keep reading</h2>
+  {% for p in related limit: 4 %}
+    <a href="{{ site.baseurl }}{{ p.url }}">▸ {{ p.title }}</a>
+  {% endfor %}
+</section>

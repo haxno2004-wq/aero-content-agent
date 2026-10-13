@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description | escape }}">{% endif %}
+  {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}">{% endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0e14; --card: #121722; --card2: #161d2b;
+      --text: #dbe2ee; --muted: #8b95a8;
+      --accent1: #7c5cff; --accent2: #22d3ee;
+      --grad: linear-gradient(96deg, var(--accent1), var(--accent2));
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: Inter, system-ui, sans-serif; line-height: 1.7;
+    }
+    header.top {
+      position: sticky; top: 0; z-index: 10;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 5vw; background: rgba(11,14,20,.82); backdrop-filter: blur(10px);
+      border-bottom: 1px solid #1d2434;
+    }
+    header.top .logo { font-weight: 800; font-size: 1.05rem; text-decoration: none; color: var(--text); }
+    header.top .logo span { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    header.top nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: .95rem; }
+    header.top nav a:hover { color: var(--text); }
+    main { max-width: 1060px; margin: 0 auto; padding: 34px 5vw 80px; }
+    a { color: #9db4ff; }
+    h1,h2,h3 { line-height: 1.25; }
+    .hero-topic { display:inline-block; background:var(--grad); color:#fff;
+      padding:3px 12px; border-radius:999px; font-size:.8rem; font-weight:600; margin-bottom:14px; }
+    footer { border-top:1px solid #1d2434; padding:28px 5vw; color:var(--muted);
+      font-size:.9rem; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+    @media (prefers-color-scheme: light) { body { background:#f6f7fb; color:#1a2130; } :root { --card:#fff; --card2:#f0f2f8; --muted:#5b6474; } }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="{{ site.baseurl }}/">Aero<span>/CFD</span> Notes</a>
+    <nav>
+      <a href="{{ site.baseurl }}/">Articles</a>
+      <a href="{{ site.baseurl }}/about/">About</a>
+      <a href="{{ site.baseurl }}/feed.xml">RSS</a>
+    </nav>
+  </header>
+  <main>{{ content }}</main>
+  <footer>
+    <span>{{ site.description }}</span>
+    <span>© 2026 Aero/CFD Notes · Free tutorials for engineering students · Built by an autonomous pipeline</span>
+  </footer>
+</body>
+</html>

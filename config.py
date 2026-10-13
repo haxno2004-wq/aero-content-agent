@@ -22,10 +22,11 @@ NVIDIA_MODEL = os.environ.get("NVIDIA_MODEL", "nvidia/nemotron-3.5-lightning-30b
 # publishing itself to work.
 SITE_BASE_URL = os.environ.get("SITE_BASE_URL", "")
 
-# "draft" writes to _drafts/ (invisible to Jekyll/GitHub Pages until you move it) -
-# use this for the first couple of weeks so nothing goes live unreviewed.
-# "publish" writes straight to _posts/ (live as soon as it's committed).
-POST_STATUS = os.environ.get("POST_STATUS", "draft")
+# "draft" writes to _drafts/ (invisible to Jekyll, kept for pure-review mode).
+# "publish" writes straight to _posts/ — live as soon as the workflow commits.
+# Default switched to "publish" (full-auto mode); a POST_STATUS=publish GitHub
+# secret (set to draft) would override this without touching code.
+POST_STATUS = os.environ.get("POST_STATUS", "publish")
 
 # --- Telegram (your monitoring channel) ---
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")

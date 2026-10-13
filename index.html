@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>Aero<span>/CFD</span> Notes</h1>
+  <p>{{ site.description }} Published daily by an autonomous pipeline — ANSYS, Fluent, FEM, LS-DYNA, composites, and UAV/drone aerodynamics, written for engineering students and early-career engineers.</p>
+  <a class="cta" href="#latest">Read the latest ↓</a>
+</section>
+
+<h2 class="latest" id="latest">Latest articles</h2>
+<div class="grid">
+  {% for post in site.posts %}
+  <a class="card" href="{{ site.baseurl }}{{ post.url }}">
+    {% if post.hero %}<img src="{{ site.baseurl }}/{{ post.hero }}" alt="{{ post.title }}" loading="lazy">{% endif %}
+    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <h3>{{ post.title }}</h3>
+    {% if post.description %}<p>{{ post.description | truncate: 110 }}</p>{% endif %}
+    <span class="tags">{% for t in post.tags limit: 3 %}#{{ t }} {% endfor %}</span>
+  </a>
+  {% endfor %}
+</div>
+
+<style>
+  section.hero {
+    background:
+      radial-gradient(900px 380px at 85% -10%, rgba(124,92,255,.35), transparent),
+      radial-gradient(700px 320px at 10% 120%, rgba(34,211,238,.25), transparent),
+      var(--card);
+    border: 1px solid #1d2434; border-radius: 22px;
+    padding: 54px 40px; margin-bottom: 44px;
+  }
+  section.hero h1 { font-size: 2.6rem; margin: 0 0 12px; }
+  section.hero h1 span { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  section.hero p { color: var(--muted); max-width: 640px; margin: 0 0 22px; }
+  a.cta { display: inline-block; background: var(--grad); color: #fff !important; font-weight: 600;
+    padding: 10px 22px; border-radius: 999px; text-decoration: none; }
+  h2.latest { font-size: 1.15rem; color: var(--muted); margin: 0 0 18px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 22px; }
+  a.card { background: var(--card); border: 1px solid #1d2434; border-radius: 18px;
+    overflow: hidden; text-decoration: none; color: var(--text); display: block;
+    transition: transform .15s ease, border-color .15s ease; }
+  a.card:hover { transform: translateY(-4px); border-color: var(--accent1); }
+  a.card img { width: 100%; aspect-ratio: 1200/630; object-fit: cover; display: block; }
+  a.card h3 { font-size: 1.02rem; margin: 4px 0 0; }
+  a.card p { color: var(--muted); font-size: .88rem; margin: .2em 0 .7em; }
+  a.card .date { color: var(--muted); font-size: .75rem; }
+  a.card .tags { color: #6f7d94; font-size: .75rem; }
+  a.card span.date, a.card span.tags { display: block; padding: 12px 18px 0; }
+  a.card h3, a.card p { padding: 8px 18px 12px; margin-bottom: 0; }
+</style>

@@ -1,8 +1,7 @@
-title: "Aero & CFD Notes"
-description: "Practical CFD, ANSYS, and UAV/drone engineering tutorials."
-theme: minima
+title: "Aero/CFD Notes"
+description: "Practical ANSYS, Fluent, CFD, FEM and UAV engineering tutorials — published daily by an autonomous pipeline."
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
-show_excerpts: true
 plugins:
   - jekyll-feed
+lang: en

@@ -14,6 +14,7 @@ import re
 from pathlib import Path
 
 import config
+import covers
 
 POSTS_DIR = Path("_posts")
 DRAFTS_DIR = Path("_drafts")
@@ -41,12 +42,17 @@ def publish_post(title: str, body_html: str, tags: list, meta_description: str) 
     safe_desc = meta_description.replace('"', "'")
     tags_yaml = "[" + ", ".join(f'"{t}"' for t in tags) + "]"
 
+    # Deterministic SVG cover so every post ships with a related image.
+    cover_file, _ = covers.cover_for(title, slug)
+    hero = f"{covers.COVERS_DIR / slug}.svg".replace("\\", "/")
+
     front_matter = (
         "---\n"
         "layout: post\n"
         f'title: "{safe_title}"\n'
         f'description: "{safe_desc}"\n'
         f"tags: {tags_yaml}\n"
+        f"hero: {hero}\n"
         f"date: {today.isoformat()} 09:00:00 +0530\n"
         "---\n\n"
     )
