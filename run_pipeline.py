@@ -14,6 +14,7 @@ import config
 from content_generator import generate_article
 from static_site_publisher import publish_post
 from telegram_notifier import send_message
+from gen_upcoming import write_page  # keeps the public queue page fresh
 
 TOPICS_FILE = Path("topics.json")
 
@@ -64,6 +65,12 @@ def main():
             results.append(f"❌ Failed on: {t['topic']}\nError: {e}")
 
     save_topics(topics)
+    # Refresh the public "upcoming topics" page with the post-run state, so the
+    # committed page always matches what the pipeline actually just did.
+    try:
+        write_page(topics)
+    except Exception as e:  # noqa: BLE001 - page refresh must never fail a run
+        print(f"[upcoming] page refresh failed: {e}")
 
     summary = "📰 <b>Daily content run</b>\n\n" + "\n\n".join(results)
     remaining = len([t for t in topics if not t.get("used")])

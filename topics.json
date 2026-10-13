@@ -223,5 +223,165 @@
     "post_file": "_drafts/career-paths-after-a-bachelors-in-aeronautical-engineering-r.md",
     "post_status": "draft (needs review)",
     "post_link": null
+  },
+  {
+    "id": 26,
+    "topic": "Boundary layers explained for CFD beginners: y+ values, growth ratios and what they mean for ANSYS Fluent"
+  },
+  {
+    "id": 27,
+    "topic": "Conjugate heat transfer (CHT) in ANSYS Fluent: setting up a cooled electronics enclosure step by step"
+  },
+  {
+    "id": 28,
+    "topic": "Backward-facing step simulation in ANSYS Fluent: the classic benchmark every CFD student should master"
+  },
+  {
+    "id": 29,
+    "topic": "How to reduce numerical diffusion in transient CFD simulations"
+  },
+  {
+    "id": 30,
+    "topic": "Rotating machinery in ANSYS: how to model a simple pump impeller with MRF and sliding mesh"
+  },
+  {
+    "id": 31,
+    "topic": "LES vs RANS vs DNS: why engineers choose each turbulence modelling approach"
+  },
+  {
+    "id": 32,
+    "topic": "Practical wall functions in ANSYS Fluent: standard, scalable and enhanced wall treatment"
+  },
+  {
+    "id": 33,
+    "topic": "RANS solver convergence criteria in ANSYS: residuals alone can lie - here is what else to check"
+  },
+  {
+    "id": 34,
+    "topic": "Linear vs nonlinear buckling analysis in ANSYS: when the eigenvalue answer is completely wrong"
+  },
+  {
+    "id": 35,
+    "topic": "How to model bolted joints in ANSYS: simplified beam approach vs solid friction contact"
+  },
+  {
+    "id": 36,
+    "topic": "Contact simulations in ANSYS mechanical: frictionless, frictional, bonded - picking correctly"
+  },
+  {
+    "id": 37,
+    "topic": "Path-independent and path-dependent plasticity: how metals yield and why material models matter"
+  },
+  {
+    "id": 38,
+    "topic": "Submodeling in ANSYS: how to refine stress results locally without re-meshing everything"
+  },
+  {
+    "id": 39,
+    "topic": "Thermal-stress coupling in ANSYS: sequentially versus fully coupled analysis"
+  },
+  {
+    "id": 40,
+    "topic": "Harmonic response analysis in ANSYS: predicting vibration amplitudes at resonance"
+  },
+  {
+    "id": 41,
+    "topic": "Random vibration analysis for electronics on UAV flight: PSD basics in ANSYS"
+  },
+  {
+    "id": 42,
+    "topic": "Adaptive meshing in ANSYS mechanical: where h-refinement helps and where it delays results"
+  },
+  {
+    "id": 43,
+    "topic": "How to interpret von Mises vs principal stresses when checking margins of safety"
+  },
+  {
+    "id": 44,
+    "topic": "Energy balance checks in LS-DYNA: the single best debug tool for explicit simulations"
+  },
+  {
+    "id": 45,
+    "topic": "Massscaling in LS-DYNA: when it saves a run and when it silently destroys accuracy"
+  },
+  {
+    "id": 46,
+    "topic": "Modeling spot welds and adhesives in LS-DYNA: beam, Hexa and tie-break options compared"
+  },
+  {
+    "id": 47,
+    "topic": "Hourglassing in explicit FEA: spotting and controlling zero-energy modes"
+  },
+  {
+    "id": 48,
+    "topic": "Airbag and deployable structure simulation in LS-DYNA: control volume basics"
+  },
+  {
+    "id": 49,
+    "topic": "Smooth-particle hydrodynamics (SPH) in LS-DYNA for bird strike problems"
+  },
+  {
+    "id": 50,
+    "topic": "Failure criteria for composite laminates: Tsai-Wu, Hashin and Puck compared"
+  },
+  {
+    "id": 51,
+    "topic": "Abaqus and ANSYS ply drop-off modeling: where delamination actually starts"
+  },
+  {
+    "id": 52,
+    "topic": "Progressive damage modeling of composite laminates in ANSYS ACP"
+  },
+  {
+    "id": 53,
+    "topic": "Tip losses and Prandtl corrections in blade element momentum theory for propellers"
+  },
+  {
+    "id": 54,
+    "topic": "Static thrust measurement vs CFD prediction for small drone propellers"
+  },
+  {
+    "id": 55,
+    "topic": "Ducted fan vs open propeller aerodynamics: efficiency, noise and ground effect"
+  },
+  {
+    "id": 56,
+    "topic": "How aircraft stall really works: separation, hysteresis and why CFD struggles"
+  },
+  {
+    "id": 57,
+    "topic": "Ram air intakes for small UAVs: total pressure recovery in ANSYS Fluent"
+  },
+  {
+    "id": 58,
+    "topic": "Electronic cooling of fixed-wing autopilots: airflow paths and thermal CFD sanity checks"
+  },
+  {
+    "id": 59,
+    "topic": "How to document a CFD simulation so reviewers approve it first time"
+  },
+  {
+    "id": 60,
+    "topic": "Verification vs validation in simulation: the free open-source cases you can cite"
+  },
+  {
+    "id": 61,
+    "topic": "Building a simulation portfolio that gets engineering interviews: 6 projects that demonstrate skill"
+  },
+  {
+    "id": 62,
+    "topic": "Open-source CFD tools in 2026: when OpenFOAM beats your ANSYS license"
+  },
+  {
+    "id": 63,
+    "topic": "Reading engineering papers for simulation setup: extracting boundary conditions that are not stated"
+  },
+  {
+    "id": 64,
+    "topic": "From coursework to industry: how turbomachinery and automotive employers actually use ANSYS daily"
+  },
+  {
+    "id": 65,
+    "topic": "Automating repetitive ANSYS workflows with parametric studies and scripting"
   }
 ]
