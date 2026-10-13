@@ -26,7 +26,10 @@ SITE_BASE_URL = os.environ.get("SITE_BASE_URL", "")
 # "publish" writes straight to _posts/ — live as soon as the workflow commits.
 # Default switched to "publish" (full-auto mode); a POST_STATUS=publish GitHub
 # secret (set to draft) would override this without touching code.
-POST_STATUS = os.environ.get("POST_STATUS", "publish")
+# `or "publish"` matters: the Actions workflow always binds the env var to
+# secrets.POST_STATUS, which is an EMPTY STRING (not unset) when the secret
+# doesn't exist — os.environ.get's default would never fire in that case.
+POST_STATUS = (os.environ.get("POST_STATUS") or "publish").strip().lower() or "publish"
 
 # --- Telegram (your monitoring channel) ---
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
