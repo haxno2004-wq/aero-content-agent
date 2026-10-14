@@ -226,7 +226,12 @@
   },
   {
     "id": 26,
-    "topic": "Boundary layers explained for CFD beginners: y+ values, growth ratios and what they mean for ANSYS Fluent"
+    "topic": "Boundary layers explained for CFD beginners: y+ values, growth ratios and what they mean for ANSYS Fluent",
+    "used": true,
+    "published_at": "2026-10-14T09:40:27.407084Z",
+    "post_file": "_posts/2026-10-14-boundary-layers-explained-for-cfd-beginners-y-values-growth.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/14/boundary-layers-explained-for-cfd-beginners-y-values-growth/"
   },
   {
     "id": 27,
