@@ -235,7 +235,12 @@
   },
   {
     "id": 27,
-    "topic": "Conjugate heat transfer (CHT) in ANSYS Fluent: setting up a cooled electronics enclosure step by step"
+    "topic": "Conjugate heat transfer (CHT) in ANSYS Fluent: setting up a cooled electronics enclosure step by step",
+    "used": true,
+    "published_at": "2026-10-15T09:18:30.521888Z",
+    "post_file": "_posts/2026-10-15-conjugate-heat-transfer-in-ansys-fluent-setting-up-a-cooled.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/15/conjugate-heat-transfer-in-ansys-fluent-setting-up-a-cooled/"
   },
   {
     "id": 28,
