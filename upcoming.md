@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>38 topics queued</strong> · 27 articles already live · last updated 2026-10-15. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>37 topics queued</strong> · 28 articles already live · last updated 2026-10-16. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Backward-facing step simulation in ANSYS Fluent: the classic benchmark every CFD student should master</li>
 <li class="q">How to reduce numerical diffusion in transient CFD simulations</li>
 <li class="q">Rotating machinery in ANSYS: how to model a simple pump impeller with MRF and sliding mesh</li>
 <li class="q">LES vs RANS vs DNS: why engineers choose each turbulence modelling approach</li>

@@ -244,7 +244,12 @@
   },
   {
     "id": 28,
-    "topic": "Backward-facing step simulation in ANSYS Fluent: the classic benchmark every CFD student should master"
+    "topic": "Backward-facing step simulation in ANSYS Fluent: the classic benchmark every CFD student should master",
+    "used": true,
+    "published_at": "2026-10-16T09:14:11.006543Z",
+    "post_file": "_posts/2026-10-16-backward-facing-step-simulation-in-ansys-fluent-the-classic.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/16/backward-facing-step-simulation-in-ansys-fluent-the-classic/"
   },
   {
     "id": 29,
