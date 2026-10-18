@@ -5,7 +5,7 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>37 topics queued</strong> · 28 articles already live · last updated 2026-10-17. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>37 topics queued</strong> · 28 articles already live · last updated 2026-10-18. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
 <li class="q">How to reduce numerical diffusion in transient CFD simulations</li>
