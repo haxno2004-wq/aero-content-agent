@@ -253,7 +253,12 @@
   },
   {
     "id": 29,
-    "topic": "How to reduce numerical diffusion in transient CFD simulations"
+    "topic": "How to reduce numerical diffusion in transient CFD simulations",
+    "used": true,
+    "published_at": "2026-10-19T10:09:43.746982Z",
+    "post_file": "_posts/2026-10-19-reducing-numerical-diffusion-in-transient-cfd-simulations.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/19/reducing-numerical-diffusion-in-transient-cfd-simulations/"
   },
   {
     "id": 30,
