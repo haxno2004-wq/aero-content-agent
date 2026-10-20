@@ -262,7 +262,12 @@
   },
   {
     "id": 30,
-    "topic": "Rotating machinery in ANSYS: how to model a simple pump impeller with MRF and sliding mesh"
+    "topic": "Rotating machinery in ANSYS: how to model a simple pump impeller with MRF and sliding mesh",
+    "used": true,
+    "published_at": "2026-10-20T09:34:36.884125Z",
+    "post_file": "_posts/2026-10-20-rotating-machinery-in-ansys-modeling-a-simple-pump-impeller.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/20/rotating-machinery-in-ansys-modeling-a-simple-pump-impeller/"
   },
   {
     "id": 31,

@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>36 topics queued</strong> · 29 articles already live · last updated 2026-10-19. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>35 topics queued</strong> · 30 articles already live · last updated 2026-10-20. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Rotating machinery in ANSYS: how to model a simple pump impeller with MRF and sliding mesh</li>
 <li class="q">LES vs RANS vs DNS: why engineers choose each turbulence modelling approach</li>
 <li class="q">Practical wall functions in ANSYS Fluent: standard, scalable and enhanced wall treatment</li>
 <li class="q">RANS solver convergence criteria in ANSYS: residuals alone can lie - here is what else to check</li>
