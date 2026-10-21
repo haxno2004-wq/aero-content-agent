@@ -271,7 +271,12 @@
   },
   {
     "id": 31,
-    "topic": "LES vs RANS vs DNS: why engineers choose each turbulence modelling approach"
+    "topic": "LES vs RANS vs DNS: why engineers choose each turbulence modelling approach",
+    "used": true,
+    "published_at": "2026-10-21T09:30:27.855579Z",
+    "post_file": "_posts/2026-10-21-les-vs-rans-vs-dns-why-engineers-choose-each-turbulence-mode.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/21/les-vs-rans-vs-dns-why-engineers-choose-each-turbulence-mode/"
   },
   {
     "id": 32,
