@@ -280,7 +280,12 @@
   },
   {
     "id": 32,
-    "topic": "Practical wall functions in ANSYS Fluent: standard, scalable and enhanced wall treatment"
+    "topic": "Practical wall functions in ANSYS Fluent: standard, scalable and enhanced wall treatment",
+    "used": true,
+    "published_at": "2026-10-22T09:33:40.040306Z",
+    "post_file": "_posts/2026-10-22-practical-wall-functions-in-ansys-fluent-standard-scalable-a.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/22/practical-wall-functions-in-ansys-fluent-standard-scalable-a/"
   },
   {
     "id": 33,
