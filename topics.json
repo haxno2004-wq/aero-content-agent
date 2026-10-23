@@ -289,7 +289,12 @@
   },
   {
     "id": 33,
-    "topic": "RANS solver convergence criteria in ANSYS: residuals alone can lie - here is what else to check"
+    "topic": "RANS solver convergence criteria in ANSYS: residuals alone can lie - here is what else to check",
+    "used": true,
+    "published_at": "2026-10-23T09:29:40.396408Z",
+    "post_file": "_posts/2026-10-23-rans-solver-convergence-criteria-in-ansys-residuals-alone-ca.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/23/rans-solver-convergence-criteria-in-ansys-residuals-alone-ca/"
   },
   {
     "id": 34,
