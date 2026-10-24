@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>32 topics queued</strong> · 33 articles already live · last updated 2026-10-23. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>31 topics queued</strong> · 34 articles already live · last updated 2026-10-24. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Linear vs nonlinear buckling analysis in ANSYS: when the eigenvalue answer is completely wrong</li>
 <li class="q">How to model bolted joints in ANSYS: simplified beam approach vs solid friction contact</li>
 <li class="q">Contact simulations in ANSYS mechanical: frictionless, frictional, bonded - picking correctly</li>
 <li class="q">Path-independent and path-dependent plasticity: how metals yield and why material models matter</li>

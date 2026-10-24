@@ -298,7 +298,12 @@
   },
   {
     "id": 34,
-    "topic": "Linear vs nonlinear buckling analysis in ANSYS: when the eigenvalue answer is completely wrong"
+    "topic": "Linear vs nonlinear buckling analysis in ANSYS: when the eigenvalue answer is completely wrong",
+    "used": true,
+    "published_at": "2026-10-24T09:01:48.981650Z",
+    "post_file": "_posts/2026-10-24-linear-vs-nonlinear-buckling-analysis-in-ansys-when-the-eige.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/24/linear-vs-nonlinear-buckling-analysis-in-ansys-when-the-eige/"
   },
   {
     "id": 35,
