@@ -307,7 +307,12 @@
   },
   {
     "id": 35,
-    "topic": "How to model bolted joints in ANSYS: simplified beam approach vs solid friction contact"
+    "topic": "How to model bolted joints in ANSYS: simplified beam approach vs solid friction contact",
+    "used": true,
+    "published_at": "2026-10-25T09:18:19.622472Z",
+    "post_file": "_posts/2026-10-25-how-to-model-bolted-joints-in-ansys-simplified-beam-approach.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/25/how-to-model-bolted-joints-in-ansys-simplified-beam-approach/"
   },
   {
     "id": 36,
