@@ -316,7 +316,12 @@
   },
   {
     "id": 36,
-    "topic": "Contact simulations in ANSYS mechanical: frictionless, frictional, bonded - picking correctly"
+    "topic": "Contact simulations in ANSYS mechanical: frictionless, frictional, bonded - picking correctly",
+    "used": true,
+    "published_at": "2026-10-26T10:24:23.786397Z",
+    "post_file": "_posts/2026-10-26-mastering-contact-simulations-in-ansys-mechanical-frictionle.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/26/mastering-contact-simulations-in-ansys-mechanical-frictionle/"
   },
   {
     "id": 37,
