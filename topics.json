@@ -325,7 +325,12 @@
   },
   {
     "id": 37,
-    "topic": "Path-independent and path-dependent plasticity: how metals yield and why material models matter"
+    "topic": "Path-independent and path-dependent plasticity: how metals yield and why material models matter",
+    "used": true,
+    "published_at": "2026-10-27T09:58:53.792545Z",
+    "post_file": "_posts/2026-10-27-path-independent-and-path-dependent-plasticity-how-metals-yi.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/27/path-independent-and-path-dependent-plasticity-how-metals-yi/"
   },
   {
     "id": 38,
