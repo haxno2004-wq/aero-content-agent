@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>28 topics queued</strong> · 37 articles already live · last updated 2026-10-27. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>27 topics queued</strong> · 38 articles already live · last updated 2026-10-28. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Submodeling in ANSYS: how to refine stress results locally without re-meshing everything</li>
 <li class="q">Thermal-stress coupling in ANSYS: sequentially versus fully coupled analysis</li>
 <li class="q">Harmonic response analysis in ANSYS: predicting vibration amplitudes at resonance</li>
 <li class="q">Random vibration analysis for electronics on UAV flight: PSD basics in ANSYS</li>

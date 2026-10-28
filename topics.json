@@ -334,7 +334,12 @@
   },
   {
     "id": 38,
-    "topic": "Submodeling in ANSYS: how to refine stress results locally without re-meshing everything"
+    "topic": "Submodeling in ANSYS: how to refine stress results locally without re-meshing everything",
+    "used": true,
+    "published_at": "2026-10-28T10:45:09.843003Z",
+    "post_file": "_posts/2026-10-28-submodeling-in-ansys-how-to-refine-stress-results-locally-wi.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/28/submodeling-in-ansys-how-to-refine-stress-results-locally-wi/"
   },
   {
     "id": 39,
