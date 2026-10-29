@@ -5,7 +5,7 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>27 topics queued</strong> · 38 articles already live · last updated 2026-10-28. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>27 topics queued</strong> · 38 articles already live · last updated 2026-10-29. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
 <li class="q">Thermal-stress coupling in ANSYS: sequentially versus fully coupled analysis</li>
