@@ -343,7 +343,12 @@
   },
   {
     "id": 39,
-    "topic": "Thermal-stress coupling in ANSYS: sequentially versus fully coupled analysis"
+    "topic": "Thermal-stress coupling in ANSYS: sequentially versus fully coupled analysis",
+    "used": true,
+    "published_at": "2026-10-30T10:59:03.907523Z",
+    "post_file": "_posts/2026-10-30-thermal-stress-coupling-in-ansys-sequentially-versus-fully-c.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/30/thermal-stress-coupling-in-ansys-sequentially-versus-fully-c/"
   },
   {
     "id": 40,
