@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>26 topics queued</strong> · 39 articles already live · last updated 2026-10-30. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>25 topics queued</strong> · 40 articles already live · last updated 2026-10-31. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Harmonic response analysis in ANSYS: predicting vibration amplitudes at resonance</li>
 <li class="q">Random vibration analysis for electronics on UAV flight: PSD basics in ANSYS</li>
 <li class="q">Adaptive meshing in ANSYS mechanical: where h-refinement helps and where it delays results</li>
 <li class="q">How to interpret von Mises vs principal stresses when checking margins of safety</li>

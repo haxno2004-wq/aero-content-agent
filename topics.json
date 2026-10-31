@@ -352,7 +352,12 @@
   },
   {
     "id": 40,
-    "topic": "Harmonic response analysis in ANSYS: predicting vibration amplitudes at resonance"
+    "topic": "Harmonic response analysis in ANSYS: predicting vibration amplitudes at resonance",
+    "used": true,
+    "published_at": "2026-10-31T10:31:48.000651Z",
+    "post_file": "_posts/2026-10-31-harmonic-response-analysis-in-ansys-predicting-vibration-amp.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/10/31/harmonic-response-analysis-in-ansys-predicting-vibration-amp/"
   },
   {
     "id": 41,
