@@ -361,7 +361,12 @@
   },
   {
     "id": 41,
-    "topic": "Random vibration analysis for electronics on UAV flight: PSD basics in ANSYS"
+    "topic": "Random vibration analysis for electronics on UAV flight: PSD basics in ANSYS",
+    "used": true,
+    "published_at": "2026-11-01T11:26:36.928733Z",
+    "post_file": "_posts/2026-11-01-random-vibration-analysis-for-uav-electronics-psd-fundamenta.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/01/random-vibration-analysis-for-uav-electronics-psd-fundamenta/"
   },
   {
     "id": 42,
