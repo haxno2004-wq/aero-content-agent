@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>24 topics queued</strong> · 41 articles already live · last updated 2026-11-01. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>23 topics queued</strong> · 42 articles already live · last updated 2026-11-02. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Adaptive meshing in ANSYS mechanical: where h-refinement helps and where it delays results</li>
 <li class="q">How to interpret von Mises vs principal stresses when checking margins of safety</li>
 <li class="q">Energy balance checks in LS-DYNA: the single best debug tool for explicit simulations</li>
 <li class="q">Massscaling in LS-DYNA: when it saves a run and when it silently destroys accuracy</li>

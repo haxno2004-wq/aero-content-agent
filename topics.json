@@ -370,7 +370,12 @@
   },
   {
     "id": 42,
-    "topic": "Adaptive meshing in ANSYS mechanical: where h-refinement helps and where it delays results"
+    "topic": "Adaptive meshing in ANSYS mechanical: where h-refinement helps and where it delays results",
+    "used": true,
+    "published_at": "2026-11-02T12:46:54.375794Z",
+    "post_file": "_posts/2026-11-02-adaptive-meshing-in-ansys-mechanical-where-h-refinement-help.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/02/adaptive-meshing-in-ansys-mechanical-where-h-refinement-help/"
   },
   {
     "id": 43,
