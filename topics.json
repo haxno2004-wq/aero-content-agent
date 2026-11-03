@@ -379,7 +379,12 @@
   },
   {
     "id": 43,
-    "topic": "How to interpret von Mises vs principal stresses when checking margins of safety"
+    "topic": "How to interpret von Mises vs principal stresses when checking margins of safety",
+    "used": true,
+    "published_at": "2026-11-03T12:13:19.616720Z",
+    "post_file": "_posts/2026-11-03-interpreting-von-mises-vs-principal-stresses-for-margin-of-s.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/03/interpreting-von-mises-vs-principal-stresses-for-margin-of-s/"
   },
   {
     "id": 44,
