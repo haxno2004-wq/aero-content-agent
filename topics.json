@@ -388,7 +388,12 @@
   },
   {
     "id": 44,
-    "topic": "Energy balance checks in LS-DYNA: the single best debug tool for explicit simulations"
+    "topic": "Energy balance checks in LS-DYNA: the single best debug tool for explicit simulations",
+    "used": true,
+    "published_at": "2026-11-04T12:25:05.181368Z",
+    "post_file": "_posts/2026-11-04-energy-balance-checks-in-ls-dyna-the-single-best-debug-tool.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/04/energy-balance-checks-in-ls-dyna-the-single-best-debug-tool/"
   },
   {
     "id": 45,
