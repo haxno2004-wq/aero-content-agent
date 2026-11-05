@@ -397,7 +397,12 @@
   },
   {
     "id": 45,
-    "topic": "Massscaling in LS-DYNA: when it saves a run and when it silently destroys accuracy"
+    "topic": "Massscaling in LS-DYNA: when it saves a run and when it silently destroys accuracy",
+    "used": true,
+    "published_at": "2026-11-05T12:39:57.190329Z",
+    "post_file": "_posts/2026-11-05-mass-scaling-in-ls-dyna-when-it-saves-a-run-and-when-it-sile.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/05/mass-scaling-in-ls-dyna-when-it-saves-a-run-and-when-it-sile/"
   },
   {
     "id": 46,
