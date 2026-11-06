@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>20 topics queued</strong> · 45 articles already live · last updated 2026-11-05. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>19 topics queued</strong> · 46 articles already live · last updated 2026-11-06. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Modeling spot welds and adhesives in LS-DYNA: beam, Hexa and tie-break options compared</li>
 <li class="q">Hourglassing in explicit FEA: spotting and controlling zero-energy modes</li>
 <li class="q">Airbag and deployable structure simulation in LS-DYNA: control volume basics</li>
 <li class="q">Smooth-particle hydrodynamics (SPH) in LS-DYNA for bird strike problems</li>

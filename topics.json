@@ -406,7 +406,12 @@
   },
   {
     "id": 46,
-    "topic": "Modeling spot welds and adhesives in LS-DYNA: beam, Hexa and tie-break options compared"
+    "topic": "Modeling spot welds and adhesives in LS-DYNA: beam, Hexa and tie-break options compared",
+    "used": true,
+    "published_at": "2026-11-06T12:22:18.277894Z",
+    "post_file": "_posts/2026-11-06-modeling-spot-welds-and-adhesives-in-ls-dyna-beam-hexa-and-t.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/06/modeling-spot-welds-and-adhesives-in-ls-dyna-beam-hexa-and-t/"
   },
   {
     "id": 47,
