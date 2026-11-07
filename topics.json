@@ -415,7 +415,12 @@
   },
   {
     "id": 47,
-    "topic": "Hourglassing in explicit FEA: spotting and controlling zero-energy modes"
+    "topic": "Hourglassing in explicit FEA: spotting and controlling zero-energy modes",
+    "used": true,
+    "published_at": "2026-11-07T11:15:28.273477Z",
+    "post_file": "_posts/2026-11-07-hourglassing-in-explicit-fea-spotting-and-controlling-zero-e.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/07/hourglassing-in-explicit-fea-spotting-and-controlling-zero-e/"
   },
   {
     "id": 48,
