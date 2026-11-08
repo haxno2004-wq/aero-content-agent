@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>18 topics queued</strong> · 47 articles already live · last updated 2026-11-07. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>17 topics queued</strong> · 48 articles already live · last updated 2026-11-08. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Airbag and deployable structure simulation in LS-DYNA: control volume basics</li>
 <li class="q">Smooth-particle hydrodynamics (SPH) in LS-DYNA for bird strike problems</li>
 <li class="q">Failure criteria for composite laminates: Tsai-Wu, Hashin and Puck compared</li>
 <li class="q">Abaqus and ANSYS ply drop-off modeling: where delamination actually starts</li>

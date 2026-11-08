@@ -424,7 +424,12 @@
   },
   {
     "id": 48,
-    "topic": "Airbag and deployable structure simulation in LS-DYNA: control volume basics"
+    "topic": "Airbag and deployable structure simulation in LS-DYNA: control volume basics",
+    "used": true,
+    "published_at": "2026-11-08T11:27:57.284391Z",
+    "post_file": "_posts/2026-11-08-airbag-and-deployable-structure-simulation-in-ls-dyna-contro.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/08/airbag-and-deployable-structure-simulation-in-ls-dyna-contro/"
   },
   {
     "id": 49,
