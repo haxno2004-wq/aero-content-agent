@@ -433,7 +433,12 @@
   },
   {
     "id": 49,
-    "topic": "Smooth-particle hydrodynamics (SPH) in LS-DYNA for bird strike problems"
+    "topic": "Smooth-particle hydrodynamics (SPH) in LS-DYNA for bird strike problems",
+    "used": true,
+    "published_at": "2026-11-09T13:14:53.225744Z",
+    "post_file": "_posts/2026-11-09-sph-in-ls-dyna-for-bird-strike-simulations-a-practical-engin.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/09/sph-in-ls-dyna-for-bird-strike-simulations-a-practical-engin/"
   },
   {
     "id": 50,
