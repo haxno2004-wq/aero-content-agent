@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>16 topics queued</strong> · 49 articles already live · last updated 2026-11-09. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>15 topics queued</strong> · 50 articles already live · last updated 2026-11-10. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Failure criteria for composite laminates: Tsai-Wu, Hashin and Puck compared</li>
 <li class="q">Abaqus and ANSYS ply drop-off modeling: where delamination actually starts</li>
 <li class="q">Progressive damage modeling of composite laminates in ANSYS ACP</li>
 <li class="q">Tip losses and Prandtl corrections in blade element momentum theory for propellers</li>

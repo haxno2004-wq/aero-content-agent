@@ -442,7 +442,12 @@
   },
   {
     "id": 50,
-    "topic": "Failure criteria for composite laminates: Tsai-Wu, Hashin and Puck compared"
+    "topic": "Failure criteria for composite laminates: Tsai-Wu, Hashin and Puck compared",
+    "used": true,
+    "published_at": "2026-11-10T12:54:15.792200Z",
+    "post_file": "_posts/2026-11-10-failure-criteria-for-composite-laminates-tsai-wu-hashin-and.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/10/failure-criteria-for-composite-laminates-tsai-wu-hashin-and/"
   },
   {
     "id": 51,
