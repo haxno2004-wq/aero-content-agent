@@ -451,7 +451,12 @@
   },
   {
     "id": 51,
-    "topic": "Abaqus and ANSYS ply drop-off modeling: where delamination actually starts"
+    "topic": "Abaqus and ANSYS ply drop-off modeling: where delamination actually starts",
+    "used": true,
+    "published_at": "2026-11-11T12:03:28.234439Z",
+    "post_file": "_posts/2026-11-11-abaqus-and-ansys-ply-drop-off-modeling-where-delamination-ac.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/11/abaqus-and-ansys-ply-drop-off-modeling-where-delamination-ac/"
   },
   {
     "id": 52,
