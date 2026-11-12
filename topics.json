@@ -460,7 +460,12 @@
   },
   {
     "id": 52,
-    "topic": "Progressive damage modeling of composite laminates in ANSYS ACP"
+    "topic": "Progressive damage modeling of composite laminates in ANSYS ACP",
+    "used": true,
+    "published_at": "2026-11-12T13:06:33.773604Z",
+    "post_file": "_posts/2026-11-12-progressive-damage-modeling-of-composite-laminates-in-ansys.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/12/progressive-damage-modeling-of-composite-laminates-in-ansys/"
   },
   {
     "id": 53,
