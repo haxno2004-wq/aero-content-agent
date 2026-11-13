@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>13 topics queued</strong> · 52 articles already live · last updated 2026-11-12. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>12 topics queued</strong> · 53 articles already live · last updated 2026-11-13. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Tip losses and Prandtl corrections in blade element momentum theory for propellers</li>
 <li class="q">Static thrust measurement vs CFD prediction for small drone propellers</li>
 <li class="q">Ducted fan vs open propeller aerodynamics: efficiency, noise and ground effect</li>
 <li class="q">How aircraft stall really works: separation, hysteresis and why CFD struggles</li>

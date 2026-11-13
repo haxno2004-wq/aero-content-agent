@@ -469,7 +469,12 @@
   },
   {
     "id": 53,
-    "topic": "Tip losses and Prandtl corrections in blade element momentum theory for propellers"
+    "topic": "Tip losses and Prandtl corrections in blade element momentum theory for propellers",
+    "used": true,
+    "published_at": "2026-11-13T12:31:22.352932Z",
+    "post_file": "_posts/2026-11-13-tip-losses-and-prandtl-corrections-in-blade-element-momentum.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/13/tip-losses-and-prandtl-corrections-in-blade-element-momentum/"
   },
   {
     "id": 54,
