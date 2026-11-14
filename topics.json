@@ -478,7 +478,12 @@
   },
   {
     "id": 54,
-    "topic": "Static thrust measurement vs CFD prediction for small drone propellers"
+    "topic": "Static thrust measurement vs CFD prediction for small drone propellers",
+    "used": true,
+    "published_at": "2026-11-14T11:41:43.219598Z",
+    "post_file": "_posts/2026-11-14-static-thrust-measurement-vs-cfd-prediction-for-small-drone.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/14/static-thrust-measurement-vs-cfd-prediction-for-small-drone/"
   },
   {
     "id": 55,
