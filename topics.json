@@ -487,7 +487,12 @@
   },
   {
     "id": 55,
-    "topic": "Ducted fan vs open propeller aerodynamics: efficiency, noise and ground effect"
+    "topic": "Ducted fan vs open propeller aerodynamics: efficiency, noise and ground effect",
+    "used": true,
+    "published_at": "2026-11-15T12:10:10.700334Z",
+    "post_file": "_posts/2026-11-15-ducted-fan-vs-open-propeller-aerodynamics-efficiency-noise-a.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/15/ducted-fan-vs-open-propeller-aerodynamics-efficiency-noise-a/"
   },
   {
     "id": 56,
