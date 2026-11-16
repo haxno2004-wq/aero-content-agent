@@ -496,7 +496,12 @@
   },
   {
     "id": 56,
-    "topic": "How aircraft stall really works: separation, hysteresis and why CFD struggles"
+    "topic": "How aircraft stall really works: separation, hysteresis and why CFD struggles",
+    "used": true,
+    "published_at": "2026-11-16T13:03:04.767059Z",
+    "post_file": "_posts/2026-11-16-how-aircraft-stall-really-works-separation-hysteresis-and-wh.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/16/how-aircraft-stall-really-works-separation-hysteresis-and-wh/"
   },
   {
     "id": 57,
