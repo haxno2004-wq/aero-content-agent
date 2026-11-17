@@ -505,7 +505,12 @@
   },
   {
     "id": 57,
-    "topic": "Ram air intakes for small UAVs: total pressure recovery in ANSYS Fluent"
+    "topic": "Ram air intakes for small UAVs: total pressure recovery in ANSYS Fluent",
+    "used": true,
+    "published_at": "2026-11-17T13:44:34.070894Z",
+    "post_file": "_posts/2026-11-17-ram-air-intakes-for-small-uavs-total-pressure-recovery-in-an.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/17/ram-air-intakes-for-small-uavs-total-pressure-recovery-in-an/"
   },
   {
     "id": 58,

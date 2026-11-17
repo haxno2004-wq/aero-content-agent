@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>9 topics queued</strong> · 56 articles already live · last updated 2026-11-16. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>8 topics queued</strong> · 57 articles already live · last updated 2026-11-17. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">Ram air intakes for small UAVs: total pressure recovery in ANSYS Fluent</li>
 <li class="q">Electronic cooling of fixed-wing autopilots: airflow paths and thermal CFD sanity checks</li>
 <li class="q">How to document a CFD simulation so reviewers approve it first time</li>
 <li class="q">Verification vs validation in simulation: the free open-source cases you can cite</li>
