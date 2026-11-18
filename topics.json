@@ -514,7 +514,12 @@
   },
   {
     "id": 58,
-    "topic": "Electronic cooling of fixed-wing autopilots: airflow paths and thermal CFD sanity checks"
+    "topic": "Electronic cooling of fixed-wing autopilots: airflow paths and thermal CFD sanity checks",
+    "used": true,
+    "published_at": "2026-11-18T13:19:52.485607Z",
+    "post_file": "_posts/2026-11-18-thermal-management-of-fixed-wing-autopilots-cfd-workflow-and.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/18/thermal-management-of-fixed-wing-autopilots-cfd-workflow-and/"
   },
   {
     "id": 59,
