@@ -523,7 +523,12 @@
   },
   {
     "id": 59,
-    "topic": "How to document a CFD simulation so reviewers approve it first time"
+    "topic": "How to document a CFD simulation so reviewers approve it first time",
+    "used": true,
+    "published_at": "2026-11-19T13:44:59.149660Z",
+    "post_file": "_posts/2026-11-19-how-to-document-a-cfd-simulation-so-reviewers-approve-it-fir.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/19/how-to-document-a-cfd-simulation-so-reviewers-approve-it-fir/"
   },
   {
     "id": 60,

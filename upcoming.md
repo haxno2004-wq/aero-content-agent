@@ -5,10 +5,9 @@ description: "What this CFD/ANSYS/UAV tutorial site will publish next — the li
 ---
 
 <h1>What we're publishing next</h1>
-<p><strong>7 topics queued</strong> · 58 articles already live · last updated 2026-11-18. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
+<p><strong>6 topics queued</strong> · 59 articles already live · last updated 2026-11-19. Each one becomes a full step-by-step tutorial within ~40 days (1 article/day). See everything already published on the <a href="/">homepage grid</a>.</p>
 
 <ul class="queue">
-<li class="q">How to document a CFD simulation so reviewers approve it first time</li>
 <li class="q">Verification vs validation in simulation: the free open-source cases you can cite</li>
 <li class="q">Building a simulation portfolio that gets engineering interviews: 6 projects that demonstrate skill</li>
 <li class="q">Open-source CFD tools in 2026: when OpenFOAM beats your ANSYS license</li>
