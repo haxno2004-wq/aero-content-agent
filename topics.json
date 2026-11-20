@@ -532,7 +532,12 @@
   },
   {
     "id": 60,
-    "topic": "Verification vs validation in simulation: the free open-source cases you can cite"
+    "topic": "Verification vs validation in simulation: the free open-source cases you can cite",
+    "used": true,
+    "published_at": "2026-11-20T13:28:19.670796Z",
+    "post_file": "_posts/2026-11-20-verification-vs-validation-in-simulation-the-free-open-sourc.md",
+    "post_status": "published",
+    "post_link": "https://haxno2004-wq.github.io/aero-content-agent/2026/11/20/verification-vs-validation-in-simulation-the-free-open-sourc/"
   },
   {
     "id": 61,
